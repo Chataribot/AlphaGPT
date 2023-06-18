@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AlphaGPT :: Chatari</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="chat-container">
+    <div id="chat-header">
+      <h1>AlphaGPT :: Chatari</h1>
+    </div>
+    <div id="chat-messages"></div>
+    <div id="chat-input">
+      <input id="message-input" type="text" placeholder="Type your message..." />
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+  
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+  <script src="theme.js"></script>
+</body>
+</html>

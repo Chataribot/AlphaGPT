@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.6.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "alphagpt",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "CodeWhiteWeb",
+  "license": "MIT",
+  "description": "A simple chatbot which is useless if you want to be productive ... 10X time killer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chataribot/Chat.git"
+  },
+  "keywords": [
+    "Chatbot",
+    "ChatGPT",
+    "AlphaGPT",
+    "Chatari"
+  ],
+  "bugs": {
+    "url": "https://github.com/Chataribot/Chat/issues"
+  },
+  "homepage": "https://github.com/Chataribot/Chat#readme"
+}
