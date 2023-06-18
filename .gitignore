@@ -133,4 +133,4 @@ dist
 .git/
 .replit
 replit.nix
-pachage-lock.json
+package-lock.json
