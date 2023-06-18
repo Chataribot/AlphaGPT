@@ -3,6 +3,9 @@
 <head>
   <title>AlphaGPT :: Chatari</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://chat.openai.com/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://chat.openai.com/favicon-16x16.png" />
 </head>
 <body>
   <div id="chat-container">
@@ -12,8 +15,13 @@
     <div id="chat-messages"></div>
     <div id="chat-input">
       <input id="message-input" type="text" placeholder="Type your message..." />
-      <button id="send-button">Send</button>
+      <button id="send-button"><i class="fa-solid fa-paper-plane"></i></button>
     </div>
+    <br>
+        <div class="disclaimer" align="center">
+          <u><a href="https://replit.com/@CodeWhiteWeb/AlphaGPT?v=1" style="color: inherit; text-decoration: none; ">AlphaGPT June 19 Version</a></u>. This is just useless and Dumb, We don't use any information in anyway. Your
+          feedback will help us improve.
+        </div>
   </div>
   
   <script src="/socket.io/socket.io.js"></script>
